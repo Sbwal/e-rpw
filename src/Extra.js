@@ -6,18 +6,4 @@ function Highlight() {
         </div>
     )
 }
-
-function Footer() {
-    return (
-        <footer className="footer">
-            <div className="container-footer">
-                <span className="text-muted">Flex By Shubham Baranwal</span>
-            </div>
-        </footer>
-    )
-}
-
-export {
-    Highlight,
-    Footer
-}
+export default Highlight;
